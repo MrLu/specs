@@ -1,0 +1,55 @@
+{
+  "name": "JockeyJS-Swift",
+  "version": "0.0.1",
+  "summary": "JockeyJS-Swift is a swift version of JockeyJS. for webView between appNative to js bridge ",
+  "description": "",
+  "homepage": "https://github.com/MrLu/JockeyJS-Swift",
+  "license": "MIT",
+  "authors": {
+    "Mrlu-bjhl": "haozi370198370@gamil.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLu/JockeyJS-Swift.git",
+    "tag": "0.0.1",
+    "submodules":true
+  },
+  // "source_files": [
+  //   "Classes",
+  //   "Classes/**/*.{h,m}"
+  // ],
+  "requires_arc":true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  // "public_header_files": "AFNetworking/AFNetworking.h",
+  "source_files": "JockeyJS-Swift/includes/Jockey.swift",
+  // "frameworks": "WebKit",
+  // "resources": [
+  //   "ACEBuilds/src-min/*",
+  //   "ACEViewSwift/Dependencies/emmet/*",
+  //   "ACEViewSwift/index.html"
+  // ]
+  // "exclude_files": "Classes/Exclude"
+  "subspecs": [
+    {
+      "name": "includes",
+      "source_files": "JockeyJS-Swift/includes/Jockey.swift"
+    }
+  ]
+  // "dependencies": {
+  //   "BJHL-Common-iOS-SDK": [
+  //   ],
+  //   "Mantle": [
+  //     "~> 2.0"
+  //   ],
+  //   "CocoaLumberjack": [
+  //     "~> 2.0.1"
+  //   ],
+  //   "LKDBHelper": [
+  //     "~> 2.1.3"
+  //   ],
+  //   "YLGIFImage":["~>0.11"],
+  //   "SlimeRefresh":["~>0.0.1"],
+  //   "SECoreTextView":["~>0.8.5"]
+  // }
+}
